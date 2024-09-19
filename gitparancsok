@@ -1,0 +1,30 @@
+git init
+Inicializáljon egy új Git-tárat az aktuális könyvtárban.
+
+git clone https://github.com/user/repository.git
+Leraktár klónozása távoli lerakatból a helyi gépre
+
+git add myfile.txt
+Adjon hozzá egy fájlt az átmeneti területhez, hogy felkészüljön a véglegesítésre.
+
+git commit -m "Add new feature"
+Hozzon létre egy új véglegesítést egy <üzenettel, hogy rögzítse a változásokat az átmeneti területen.
+
+git status
+Megjeleníti a lerakat és a fájlok állapotát, beleértve a nem véglegesített változtatások állapotát is.
+
+git log
+Megjeleníti a lerakat véglegesítési előzményeit, beleértve a véglegesítésekkel, szerzőkkel és időbélyegekkel kapcsolatos információkat.
+
+git pull origin main
+Szinkronizálja és vonja be a módosításokat egy távoli adattárból a helyi tárolóba.
+
+git push origin main
+A módosítások átküldése a helyi lerakatból egy távoli lerakatba.
+
+git remote add origin https://github.com/user/repository.git
+Kapcsoljon össze egy helyi adattárat egy távoli tárolóval egy távoli hozzáadásával.
+
+git remote -v
+Jelenítse meg a helyi adattárhoz kapcsolt távvezérlők listáját.
+
